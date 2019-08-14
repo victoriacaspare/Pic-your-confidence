@@ -1,0 +1,67 @@
+body{
+  background-image: url("https://media.gettyimages.com/photos/white-marble-texture-in-natural-pattern-with-high-resolution-for-and-picture-id925581608?b=1&k=6&m=925581608&s=612x612&w=0&h=dy4os8i7UtND18I4ByxUrGJ0R1ulm62JAczKTultjyA=");
+;
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+  top: 20px;
+  background-color: pink;
+  }
+#about {
+  top: 70px;
+  background-color: gray;
+}
+#body {
+  top: 120px;
+  background-color: pink; /* Blue */
+}
+#projects {
+  top: 180px;
+  background-color: gray; /* Red */
+}
+#quote1{
+  background-color:pink;
+padding: 20px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  border: 5px dotted;
+
+}
+.p{
+  font-size: 27px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

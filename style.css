@@ -1,0 +1,64 @@
+body {
+margin:25px;
+text-align: center;
+background-image: url("https://media.gettyimages.com/photos/white-marble-texture-in-natural-pattern-with-high-resolution-for-and-picture-id925581608?b=1&k=6&m=925581608&s=612x612&w=0&h=dy4os8i7UtND18I4ByxUrGJ0R1ulm62JAczKTultjyA=");
+border: 1px dotted;
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#title{
+
+}
+/* The about link: 20px from the top with a green background */
+#home {
+  top: 20px;
+  background-color: pink;
+  }
+#about {
+  top: 70px;
+  background-color: gray;
+}
+#body {
+  top: 120px;
+  background-color: pink; /* Blue */
+}
+#projects {
+  top: 170px;
+  background-color: gray; /* Red */
+}
+
+
+p {
+  font-family: sans-serif;
+  color: black
+}
+.polaroid {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+h2{
+border-style: dotted;
+}
